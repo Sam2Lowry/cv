@@ -35,7 +35,7 @@ a:visited
 }
 body
 {
-    /*background-image: url(img/background.jpg);
+    /*background-image: url(img/background.jpg); 
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-position : top right;*/
@@ -84,7 +84,7 @@ img:hover
 }
 .para li
 {
-    font-size: x-large;
+    font-size: large;
     font-family: tahoma;
     padding: 1px;
     margin-left: 2em;
@@ -96,7 +96,7 @@ img:hover
     font-size: larger;
     font-weight: bold;
 }
-img
+.ID img
 {
    float: right;
    border: 1px solid black;
@@ -167,18 +167,12 @@ section h2 span::before, section h2 span::after
 #contact
 {
     display: inline-block;
-    position: relative;
-    text-align: center;
+    position: static;
     margin: auto;
-    text-decoration: none;
 }  
 #contact
 {
-    font-size: larger;
-    font-family: 'ambleregular';
-    color: rgb(70, 35, 6);
-    opacity: 0.5;
-    
+    opacity: 0.5;   
 }
 #contact img
 {
